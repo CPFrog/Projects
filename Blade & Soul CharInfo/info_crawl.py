@@ -3,7 +3,7 @@ from urllib.parse import quote_plus
 from selenium import webdriver
 from bs4 import BeautifulSoup
 
-headers={'user-agent' : 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36 Edg/86.0.622.38'}
+# headers={'user-agent' : 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36 Edg/86.0.622.38'}
 url_bs='http://g.bns.plaync.com/ingame/bs/character/profile?c='
 
 options=webdriver.ChromeOptions()
