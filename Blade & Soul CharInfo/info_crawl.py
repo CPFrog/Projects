@@ -1,4 +1,4 @@
-#%% 실행 전 사전준비
+#%% Initializing
 from urllib.parse import quote_plus
 from selenium import webdriver
 from bs4 import BeautifulSoup
@@ -11,7 +11,7 @@ options.add_argument('headless')
 options.add_argument('disable-gpu')
 
 
-#%% 캐릭정보 호출 함수
+#%% Function Building
 def info_call(char_name) : 
  driver=webdriver.Chrome('chromedriver', options=options)
  
@@ -36,7 +36,6 @@ def info_call(char_name) :
  print('치명피해 :', crt_dam)
  print('공력 :', attr)
  print('치피공합 :', int(crt_dam)+int(attr))
-# %%
+# %% Call Character info
 name=input('캐릭터명 입력 :')
 info_call(name)
-# %%
