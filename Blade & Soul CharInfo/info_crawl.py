@@ -36,6 +36,8 @@ def info_call(char_name) :
  print('치명피해 :', crt_dam)
  print('공력 :', attr)
  print('치피공합 :', int(crt_dam)+int(attr))
+
+
 # %% Call Character info
 name=input('캐릭터명 입력 :')
 info_call(name)
